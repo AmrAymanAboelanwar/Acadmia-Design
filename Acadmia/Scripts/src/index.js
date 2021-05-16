@@ -32,6 +32,9 @@ export default class Popper {
       isCreated: false,
       scrollParents: [],
     };
+    
+    
+    // Omar Test 
 
     // get reference and popper elements (allow jQuery wrappers)
     this.reference = reference && reference.jquery ? reference[0] : reference;
